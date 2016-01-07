@@ -1,0 +1,31 @@
+.footer-container {
+  .container();
+  @media (min-width: @screen-sm-min) {
+    margin-top:60px;
+  }
+}
+.footer-container-row {
+  border-top: 3px solid @menu-border-color;
+  background-color: #000;
+  padding: 20px 30px;
+  .make-row();
+  margin: 0;
+}
+.footer-item{
+  color: #fff;
+  .make-sm-column(4);
+  & h4 {
+    margin-bottom:15px;
+  }
+  & ul {
+    padding-left: 0;
+    list-style: none;
+  }
+  & a {
+    color: #fff;
+  }
+}
+
+.footer-container .glyphicon{
+  font-size: 0.7em;
+}

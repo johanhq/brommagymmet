@@ -1,0 +1,72 @@
+<div class="container">
+  <a href="/" alt="Hem" title="Hem">
+    <img class="loggo" src="dist/img/header.png" alt="Hem"/>
+  </a>
+</div>
+<div class="container" ng-controller="CollapseMenuCtrl">
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" ng-click="isCollapsed = !isCollapsed">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="navbar-collapse" uib-collapse="isCollapsed">
+        <ul class="nav navbar-nav">
+          <li class="dropdown" uib-dropdown dropdown-current>
+            <button id="btn-append-to-body" uib-dropdown-toggle>
+                Aktuelt<span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="btn-current">
+              <li><a href="#julschema">Julschema</a></li>
+              <li><a href="#schema">Schema</a></li>
+              <li><a href="#boka-pass">Boka pass</a></li>
+              <li><a href="#oppetider">Öppetider</a></li>
+            </ul>
+          </li>
+          <li class="dropdown" uib-dropdown dropdown-workout>
+            <button id="btn-append-to-body" uib-dropdown-toggle>
+            Träningspass<span class="caret"></span>
+          </button>
+
+            <ul class="dropdown-menu" role="menu" aria-labelledby="btn-workout">
+              <li><a href="#forklaring">Förklaring av passen</a></li>
+              <li><a href="#lattare-traning">Lättare träning</a></li>
+              <li><a href="#yoga">Yoga</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Personlig träning<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Förklaring av passen</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Behandlingar<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Förklaring av passen</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#priser">Priser</a>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Företag/Klubbar<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Förklaring av passen</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#priser">Kontakt</a>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+</div>

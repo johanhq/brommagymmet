@@ -1,0 +1,30 @@
+.top-area {
+  margin-bottom: 30px;
+  .container();
+}
+
+.top-area-row {
+  .make-row();
+}
+
+.top-area-article {
+  .make-sm-column(6);
+  .make-xs-column(12);
+  & article {
+    border:1px solid #f1b933;
+    border-top-width: 0;
+  }
+
+  & img {
+    width:100%;
+  }
+  & h2 {
+    padding: 10px;
+    margin-top: 0;
+    background-color: @menu-border-color;
+    color: #000;
+  }
+  & p {
+    padding: 0 10px;
+  }
+}

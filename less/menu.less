@@ -1,0 +1,47 @@
+.navbar-inverse{
+  border-color: @menu-border-color;
+  border-radius: 0;
+  border-width: @menu-border-width;
+
+  & .navbar-collapse{
+    border-width:0;
+  }
+}
+
+.navbar-nav {
+  > li > button {
+    color: @navbar-inverse-link-color;
+    padding: 10px 15px;
+    line-height: 20px;
+    background-color: transparent;
+    border: 0;
+
+    &:hover,
+    &:focus {
+      color: @navbar-inverse-link-hover-color;
+      background-color: @navbar-inverse-link-hover-bg;
+    }
+  }
+  > .active > button {
+    &,
+    &:hover,
+    &:focus {
+      color: @navbar-inverse-link-active-color;
+      background-color: @navbar-inverse-link-active-bg;
+    }
+  }
+  > .disabled > button {
+    &,
+    &:hover,
+    &:focus {
+      color: @navbar-inverse-link-disabled-color;
+      background-color: @navbar-inverse-link-disabled-bg;
+    }
+  }
+}
+@media (min-width: 768px){
+.navbar-nav>li>button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+}
