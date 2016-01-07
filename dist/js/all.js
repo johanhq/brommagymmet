@@ -41591,6 +41591,15 @@ function($stateProvider, $urlRouterProvider) {
       'main-aside@yoga': { templateUrl: 'template/assets/aside.html'},
       'footer@yoga': { templateUrl: 'template/assets/footer.html' }
     }
+  }).state('bosu-core', {
+    url: '/bosu-core',
+    views: {
+      '': { templateUrl: 'template/article.html'},
+      'nav@bosu-core': { templateUrl: 'template/assets/nav.html'},
+      'main-area@bosu-core': { templateUrl: 'template/bosu-core.html'},
+      'main-aside@bosu-core': { templateUrl: 'template/assets/aside.html'},
+      'footer@bosu-core': { templateUrl: 'template/assets/footer.html' }
+    }
   });
 }
 ]);
