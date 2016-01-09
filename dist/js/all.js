@@ -41555,14 +41555,14 @@ function($stateProvider, $urlRouterProvider) {
       'main-aside@boka-pass': { templateUrl: 'template/assets/aside.html'},
       'footer@boka-pass': { templateUrl: 'template/assets/footer.html' }
     }
-  }).state('oppetider', {
-    url: '/oppetider',
+  }).state('oppettider', {
+    url: '/oppettider',
     views: {
       '': { templateUrl: 'template/article.html'},
-      'nav@oppetider': { templateUrl: 'template/assets/nav.html'},
-      'main-area@oppetider': { templateUrl: 'template/oppetider.html'},
-      'main-aside@oppetider': { templateUrl: 'template/assets/aside.html'},
-      'footer@oppetider': { templateUrl: 'template/assets/footer.html' }
+      'nav@oppettider': { templateUrl: 'template/assets/nav.html'},
+      'main-area@oppettider': { templateUrl: 'template/oppetider.html'},
+      'main-aside@oppettider': { templateUrl: 'template/assets/aside.html'},
+      'footer@oppettider': { templateUrl: 'template/assets/footer.html' }
     }
   }).state('forklaring', {
     url: '/forklaring',
@@ -41599,6 +41599,78 @@ function($stateProvider, $urlRouterProvider) {
       'main-area@bosu-core': { templateUrl: 'template/bosu-core.html'},
       'main-aside@bosu-core': { templateUrl: 'template/assets/aside.html'},
       'footer@bosu-core': { templateUrl: 'template/assets/footer.html' }
+    }
+  }).state('senior', {
+    url: '/senior',
+    views: {
+      '': { templateUrl: 'template/article.html'},
+      'nav@senior': { templateUrl: 'template/assets/nav.html'},
+      'main-area@senior': { templateUrl: 'template/senior.html'},
+      'main-aside@senior': { templateUrl: 'template/assets/aside.html'},
+      'footer@senior': { templateUrl: 'template/assets/footer.html' }
+    }
+  }).state('pt', {
+    url: '/personlig-traning',
+    views: {
+      '': { templateUrl: 'template/article.html'},
+      'nav@pt': { templateUrl: 'template/assets/nav.html'},
+      'main-area@pt': { templateUrl: 'template/pt.html'},
+      'main-aside@pt': { templateUrl: 'template/assets/aside.html'},
+      'footer@pt': { templateUrl: 'template/assets/footer.html' }
+    }
+  }).state('gym', {
+    url: '/gyminstruktion',
+    views: {
+      '': { templateUrl: 'template/article.html'},
+      'nav@gym': { templateUrl: 'template/assets/nav.html'},
+      'main-area@gym': { templateUrl: 'template/gym.html'},
+      'main-aside@gym': { templateUrl: 'template/assets/aside.html'},
+      'footer@gym': { templateUrl: 'template/assets/footer.html' }
+    }
+  }).state('behandlingar', {
+    url: '/behandlingar',
+    views: {
+      '': { templateUrl: 'template/article.html'},
+      'nav@behandlingar': { templateUrl: 'template/assets/nav.html'},
+      'main-area@behandlingar': { templateUrl: 'template/behandlingar.html'},
+      'main-aside@behandlingar': { templateUrl: 'template/assets/aside.html'},
+      'footer@behandlingar': { templateUrl: 'template/assets/footer.html' }
+    }
+  }).state('priser', {
+    url: '/priser',
+    views: {
+      '': { templateUrl: 'template/article.html'},
+      'nav@priser': { templateUrl: 'template/assets/nav.html'},
+      'main-area@priser': { templateUrl: 'template/priser.html'},
+      'main-aside@priser': { templateUrl: 'template/assets/aside.html'},
+      'footer@priser': { templateUrl: 'template/assets/footer.html' }
+    }
+  }).state('foretag', {
+    url: '/foretag',
+    views: {
+      '': { templateUrl: 'template/article.html'},
+      'nav@foretag': { templateUrl: 'template/assets/nav.html'},
+      'main-area@foretag': { templateUrl: 'template/foretag.html'},
+      'main-aside@foretag': { templateUrl: 'template/assets/aside.html'},
+      'footer@foretag': { templateUrl: 'template/assets/footer.html' }
+    }
+  }).state('omoss', {
+    url: '/omoss',
+    views: {
+      '': { templateUrl: 'template/article.html'},
+      'nav@omoss': { templateUrl: 'template/assets/nav.html'},
+      'main-area@omoss': { templateUrl: 'template/omoss.html'},
+      'main-aside@omoss': { templateUrl: 'template/assets/aside.html'},
+      'footer@omoss': { templateUrl: 'template/assets/footer.html' }
+    }
+  }).state('hittahit', {
+    url: '/hittahit',
+    views: {
+      '': { templateUrl: 'template/article.html'},
+      'nav@hittahit': { templateUrl: 'template/assets/nav.html'},
+      'main-area@hittahit': { templateUrl: 'template/hittahit.html'},
+      'main-aside@hittahit': { templateUrl: 'template/assets/aside.html'},
+      'footer@hittahit': { templateUrl: 'template/assets/footer.html' }
     }
   });
 }

@@ -20,51 +20,62 @@
       <div class="navbar-collapse" uib-collapse="isCollapsed">
         <ul class="nav navbar-nav">
           <li class="dropdown" uib-dropdown dropdown-current>
-            <button id="btn-append-to-body" uib-dropdown-toggle>
-                Aktuellt<span class="caret"></span>
+            <button id="btn-current" uib-dropdown-toggle>
+                Schema<span class="caret"></span>
             </button>
             <ul class="dropdown-menu" role="menu" aria-labelledby="btn-current">
               <!-- <li><a href="#julschema">Julschema</a></li> -->
               <li><a href="#schema">Schema</a></li>
-              <li><a href="#boka-pass">Boka pass</a></li>
               <li><a href="#oppetider">Öppettider</a></li>
+              <li><a href="#boka-pass">Boka pass</a></li>
             </ul>
           </li>
           <li class="dropdown" uib-dropdown dropdown-workout>
-            <button id="btn-append-to-body" uib-dropdown-toggle>
+            <button id="btn-workout" uib-dropdown-toggle>
             Träningspass<span class="caret"></span>
           </button>
 
             <ul class="dropdown-menu" role="menu" aria-labelledby="btn-workout">
-              <li><a href="#forklaring">Förklaring av passen</a></li>
+              <li><a href="#forklaring">Våra träningspass</a></li>
               <li><a href="#lattare-traning">Lättare träning</a></li>
-              <li><a href="#yoga">Yoga</a></li>
-              <li><a href="#bosu-core">Bosu/coreträning</a></li>
+              <li><a href="#yoga">Yoga & Pilates</a></li>
+              <li><a href="#bosu-core">Bosu/Core</a></li>
+              <li><a href="#senior">Seniorträning</a></li>
             </ul>
           </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Personlig träning<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Förklaring av passen</a></li>
+          <li class="dropdown" uib-dropdown dropdown-pt>
+            <button id="btn-pt" uib-dropdown-toggle>
+              Personlig träning<span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="btn-pt">
+              <li><a href="#gyminstruktion">Instruktion i gymmet</a></li>
+              <li><a href="#personlig-traning">Personlig tränare</a></li>
             </ul>
           </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Behandlingar<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Förklaring av passen</a></li>
+          <li class="dropdown" uib-dropdown dropdown-treatment>
+            <button id="btn-treatment" uib-dropdown-toggle>
+              Behandlingar<span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="btn-treatment">
+              <li><a href="#behandlingar">Kiropraktik</a></li>
+              <li><a href="#behandlingar">Massage</a></li>
             </ul>
           </li>
           <li>
             <a href="#priser">Priser</a>
           </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Företag/Klubbar<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Förklaring av passen</a></li>
+          <li class="dropdown" uib-dropdown dropdown-about>
+            <button id="btn-about" uib-dropdown-toggle>
+              Kontakt<span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="btn-about">
+              <li><a href="#foretag">Företag/Klubbar</a></li>
+              <li><a href="#omoss">Om oss</a></li>
+              <li><a href="#hittahit">Hitta hit</a></li>
             </ul>
           </li>
           <li>
-            <a href="#priser">Kontakt</a>
+            <a href="/">Hem</a>
           </li>
         </ul>
       </div><!-- /.navbar-collapse -->
