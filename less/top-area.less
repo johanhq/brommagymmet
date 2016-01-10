@@ -13,6 +13,7 @@
   & article {
     border:1px solid #f1b933;
     border-top-width: 0;
+    border-radius: 0 0 5px 5px;
   }
 
   & img {
@@ -26,5 +27,22 @@
   }
   & p {
     padding: 0 10px;
+  }
+}
+@media (min-width: 768px){
+  .top-area-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .top-area-article {
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    display: flex;
+    flex-direction: column;
+    & article {
+      flex-grow: 1;
+    }
   }
 }
