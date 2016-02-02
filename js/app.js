@@ -158,6 +158,24 @@ function($stateProvider, $urlRouterProvider) {
       'main-aside@hittahit': { templateUrl: 'template/assets/aside.html'},
       'footer@hittahit': { templateUrl: 'template/assets/footer.html' }
     }
+  }).state('viktminskning', {
+    url: '/viktminskning',
+    views: {
+      '': { templateUrl: 'template/article.html'},
+      'nav@viktminskning': { templateUrl: 'template/assets/nav.html'},
+      'main-area@viktminskning': { templateUrl: 'template/viktminskning.html'},
+      'main-aside@viktminskning': { templateUrl: 'template/assets/aside.html'},
+      'footer@viktminskning': { templateUrl: 'template/assets/footer.html' }
+    }
+  }).state('trainingcamp', {
+    url: '/trainingcamp',
+    views: {
+      '': { templateUrl: 'template/article.html'},
+      'nav@trainingcamp': { templateUrl: 'template/assets/nav.html'},
+      'main-area@trainingcamp': { templateUrl: 'template/trainingcamp.html'},
+      'main-aside@trainingcamp': { templateUrl: 'template/assets/aside.html'},
+      'footer@trainingcamp': { templateUrl: 'template/assets/footer.html' }
+    }
   });
 }
 ]);
